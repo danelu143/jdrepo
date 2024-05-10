@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create View</title>
+</head>
+<body>
+  <div align="center" style="background:blue; color:orange;">
+    <h1>Inserting The Company Information</h1>
+     <form method="post">
+      {{form.as_p}}
+      {% csrf_token %}
+      <input type="submit" name="" value="Insert Data">
+    </form>
+  </div>
+</body>
+</html>
